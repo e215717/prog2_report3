@@ -27,10 +27,6 @@ public class Hero {
         dead = false;
         System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
     }
-    
-    public void setName(String name){
-        this.name = name;
-    }
 
     public String getName(){
         return this.name;
