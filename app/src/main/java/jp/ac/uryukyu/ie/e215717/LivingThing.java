@@ -21,6 +21,10 @@ public class LivingThing {
     public String getName(){
         return name;    
     }
+
+    public boolean getDead(){
+        return this.dead;
+    }
     
     public void attack(LivingThing opponent){
         int damage = (int)(Math.random() * attack);
